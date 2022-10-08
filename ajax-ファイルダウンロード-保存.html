@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet" type="text/css">
+
+		<style type="text/css">
+			html,body{font-family:"Open Sans",Arial,sans-serif;font-size:14px;font-weight:400;background:#f3f3f3 url(https://blog-imgs-102-origin.fc2.com/s/y/m/symfoware/744_05.png
+) no-repeat center center fixed;background-size:cover;height:100%}#title{font-family:"Mr Dafoe",Times,serif;font-size:34px;background:rgba(255,255,255,.8);margin-bottom:34px}.header{padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid #eee}a{color:#26ADE4;text-decoration:none}#title a{color:#333;margin-left:21px}#title a:hover{text-decoration:none;color:#26ADE4}.sidebar ul{margin:0;padding:0}.sidebar ul li{list-style:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0 13px 0;padding:13px}.navi a{margin:5px 2px;font-size:95%}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.dwn-cover{max-height: 460px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}			
+		</style>
+
+		<title>Ajax ファイルダウンロード 保存</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "Ajax ファイルダウンロード 保存",
+  "datePublished": "2021-04-25",
+  "image": [https://blog.capilano-fw.com/wp-content/uploads/2019/12/multiple_ajax_download.png,https://fastcoding.jp/blog/wp-content/uploads/2018/01/1801_jquery01.jpg,http://surferonwww.info/BlogEngine/image.axd?picture=2021%2F1%2F0117UploadToWebApi.jpg],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tukang Sarapan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=ajax ファイルダウンロード 保存",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+		<!-- Head tag Code -->	
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B9BHS4P5EY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B9BHS4P5EY');
+</script>
+
+<script type='text/javascript' src='//jc32arlvqpv8.com/c4/9c/f2/c49cf2db4eefa85d0e9d9e1c400627b5.js'></script>
+</head>
+	<body>
+		<header class="bg-white fixed-top">			
+			<nav class="navbar navbar-light bg-white mb-0">
+				<div class="container justify-content-center justify-content-sm-between">	
+				  <a href="/" title="Tukang Sarapan" class="navbar-brand mb-1">Tukang Sarapan</a>
+				  				</div>			  
+			</nav>				
+		</header>
+		<main class="main container bg-white">
+			<div class="row header">
+				<div class="col-sm-12 text-center p-2">
+						<h1>Ajax ファイルダウンロード 保存</h1>
+
+	
+	<div class="navi text-center">
+										<a class="badge badge-info" href="/acid-pro-8-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">acid pro 8 ダウンロード</a>
+											<a class="badge badge-success" href="/youtube-%E5%8B%95%E7%94%BB-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E3%83%84%E3%83%BC%E3%83%AB.html">youtube 動画 ダウンロード ツール</a>
+											<a class="badge badge-warning" href="/rpg-%E3%83%84%E3%82%AF%E3%83%BC%E3%83%AB-xp-rtp-%E3%81%AE-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">rpg ツクール xp rtp の ダウンロード</a>
+											<a class="badge badge-success" href="/%E3%82%B9%E3%83%9E%E3%83%96%E3%83%A9-%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8-%E4%BB%98%E3%81%8D-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">スマブラ パッケージ 付き ダウンロード</a>
+											<a class="badge badge-danger" href="/64-%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF-rom-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">64 エミュレータ rom ダウンロード</a>
+											<a class="badge badge-warning" href="/android-youtube%E5%8B%95%E7%94%BB%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E5%87%BA%E6%9D%A5%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F.html">android youtube動画ダウンロード出来なくなった</a>
+											<a class="badge badge-info" href="/2%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B-%E9%9F%B3-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">2ちゃんねる 音 ダウンロード</a>
+											<a class="badge badge-success" href="/004-mbps-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">004 mbps ダウンロード</a>
+											<a class="badge badge-secondary" href="/%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A-%E7%B4%A0%E6%9D%90-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84.html">ゆっくり 素材 ダウンロード できない</a>
+											<a class="badge badge-primary" href="/toshiba-recovery-disc-creator-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">toshiba recovery disc creator ダウンロード</a>
+											<a class="badge badge-success" href="/windows-live-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-windows10.html">windows live ダウンロード windows10</a>
+											<a class="badge badge-warning" href="/%E3%81%AF%E3%82%89-%E3%81%BA%E3%81%93%E3%81%82%E3%81%8A%E3%82%80%E3%81%97-%E6%AD%8C-%E6%A5%BD%E8%AD%9C-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">はら ぺこあおむし 歌 楽譜 ダウンロード</a>
+											<a class="badge badge-primary" href="/%E3%82%AF%E3%83%A9%E3%83%8A%E3%83%89-%E3%82%B2%E3%83%BC%E3%83%A0-pc-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">クラナド ゲーム pc ダウンロード</a>
+											<a class="badge badge-light" href="/acca-op%E6%9B%B2-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">acca op曲 ダウンロード</a>
+											<a class="badge badge-primary" href="/apex-legends-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E3%82%A8%E3%83%A9%E3%83%BC-directx.html">apex legends ダウンロード エラー directx</a>
+						</div>
+<center>
+	<!-- MIDDLE BANNER ADS -->
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'c6c38f505f89474eabb6c7b8c082359d',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://jc32arlvqpv8.com/c6c38f505f89474eabb6c7b8c082359d/invoke.js"></scr' + 'ipt>');
+</script>
+		
+	</center>
+					
+				</div>
+			</div>
+			<div class="row content mb-4">
+				<div class="col-md-12">					
+					
+	
+	<div class="card-columns">
+						
+	  <div class='card'>
+	  	<a href="http://surferonwww.info/BlogEngine/image.axd?picture=2019%2F2%2F0205AjaxDownLoad.jpg" data-lightbox="roadtrip" data-title="Ajax でファイルダウンロード">
+						<img class="card-img" src="http://surferonwww.info/BlogEngine/image.axd?picture=2019%2F2%2F0205AjaxDownLoad.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5bJxbchSdzwzgx2ubzhWsD5U_hRQFNToVgyNoguPOodPCOxBU_VBF-3cydEThrljbHo';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Ajax でファイルダウンロード
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://cdn-ak.f.st-hatena.com/images/fotolife/e/end0tknr/20120308/20120308205301.png" data-lightbox="roadtrip" data-title="Jquery Ajax でファイルのダウンロード End0tknr S Kipple Web写経開発">
+						<img class="card-img" src="http://cdn-ak.f.st-hatena.com/images/fotolife/e/end0tknr/20120308/20120308205301.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhLRX2YLfJMaqHC32hwZYw87HE0AbK2VdpVNcBCvRbfebcSTD0fPRavGyLt1Q4ZZ7gh8';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Jquery Ajax でファイルのダウンロード End0tknr S Kipple Web写経開発
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://cdn-ak.f.st-hatena.com/images/fotolife/e/end0tknr/20120308/20120308205302.png" data-lightbox="roadtrip" data-title="Jquery Ajax でファイルのダウンロード End0tknr S Kipple Web写経開発">
+						<img class="card-img" src="http://cdn-ak.f.st-hatena.com/images/fotolife/e/end0tknr/20120308/20120308205302.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkWpTOI-DERBG879DDRNJ2Zh-PeRaiiMo-6sFlws32ytTmrfgzORd0Fut7gkXZ6gTyogg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Jquery Ajax でファイルのダウンロード End0tknr S Kipple Web写経開発
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://staging-qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-4.0.0&amp;w=1200&amp;mark=https%3A%2F%2Fstaging-qiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D380%26txt%3DAjax%25E3%2581%25A7%25E9%2580%2581%25E4%25BF%25A1%25E3%2581%2597%25E3%2581%259F%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%2592%25E3%2582%2582%25E3%2581%25A8%25E3%2581%25ABEXCEL%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%2592%25E7%2594%259F%25E6%2588%2590%25E3%2581%2597%25E3%2581%25A6%25E3%2583%2580%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2589%25E3%2581%2599%25E3%2582%258B%25E3%2580%2580%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3Dd6208837cf32b966bacfb69caae89177&amp;mark-align=center%2Cmiddle&amp;blend=https%3A%2F%2Fstaging-qiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D500%26txt%3D%2540n-Taro%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3Dd1dd2a1cc321ad26544f5919f488bddc&amp;blend-align=center%2Cmiddle&amp;blend-mode=normal&amp;s=637b2cb2256738dfaea89da693778a4f" data-lightbox="roadtrip" data-title="Ajaxで送信したデータをもとにexcelファイルを生成してダウンロードする Qiita">
+						<img class="card-img" src="https://staging-qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-4.0.0&amp;w=1200&amp;mark=https%3A%2F%2Fstaging-qiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D380%26txt%3DAjax%25E3%2581%25A7%25E9%2580%2581%25E4%25BF%25A1%25E3%2581%2597%25E3%2581%259F%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%2592%25E3%2582%2582%25E3%2581%25A8%25E3%2581%25ABEXCEL%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%2592%25E7%2594%259F%25E6%2588%2590%25E3%2581%2597%25E3%2581%25A6%25E3%2583%2580%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2589%25E3%2581%2599%25E3%2582%258B%25E3%2580%2580%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3Dd6208837cf32b966bacfb69caae89177&amp;mark-align=center%2Cmiddle&amp;blend=https%3A%2F%2Fstaging-qiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D500%26txt%3D%2540n-Taro%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3Dd1dd2a1cc321ad26544f5919f488bddc&amp;blend-align=center%2Cmiddle&amp;blend-mode=normal&amp;s=637b2cb2256738dfaea89da693778a4f" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOL2cp8bQn9Q3hQgf51ttj3ATY1uJsIOcbACAOzxVZ8uXebYxveVHY6Q8_cGehxBwmJ8k';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Ajaxで送信したデータをもとにexcelファイルを生成してダウンロードする Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://blog.capilano-fw.com/wp-content/uploads/2019/12/multiple_ajax_download.png" data-lightbox="roadtrip" data-title="Ajaxで複数ファイルをダウンロードさせる方法 Console Dot Log">
+						<img class="card-img" src="https://blog.capilano-fw.com/wp-content/uploads/2019/12/multiple_ajax_download.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrlbvZ2_nT_K029PDbrU7T-zVKK5JVFHEP6xVr27j6hd1XxVjmDa8hTShtBaxoNuXGNnw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Ajaxで複数ファイルをダウンロードさせる方法 Console Dot Log
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://ogimage.blog.st-hatena.com/10328749687200248526/10328749687241971169/1538110415" data-lightbox="roadtrip" data-title="Net Ajax ファイルダウンロードのcallback設定を行う It業界のすみっこ暮らし">
+						<img class="card-img" src="https://ogimage.blog.st-hatena.com/10328749687200248526/10328749687241971169/1538110415" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7Pu7c8nt5hiHTWtMfZHP12Etnnu5QW4V-ztBwr33HknS0K1HR5H6y1zu73O_3yXhmeU';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Net Ajax ファイルダウンロードのcallback設定を行う It業界のすみっこ暮らし
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+				<div class='card'>	
+			<div class="d-block p-4">
+	</div>		  	
+		  	<h3 class="h6 p-2"><b></b></h3>
+					</div>
+		
+						
+	  <div class='card'>
+	  	<a href="https://ecpplus.net/weblog/wp-content/uploads/2016/09/7701-1140x488.jpg" data-lightbox="roadtrip" data-title="Ajaxでファイルダウンロード 変なヤバいもんログ">
+						<img class="card-img" src="https://ecpplus.net/weblog/wp-content/uploads/2016/09/7701-1140x488.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyuaS08_s_APQfQsrdPC3K360X86v_ur4jZSEdxAQnWE2ubd6DWKgS8zrr5TJJCY6RDg0';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Ajaxでファイルダウンロード 変なヤバいもんログ
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.purin-it.com/wp-content/uploads/2020/03/download_jquery_2.png" data-lightbox="roadtrip" data-title="Spring Bootでjqueryのajaxを利用してみた">
+						<img class="card-img" src="https://www.purin-it.com/wp-content/uploads/2020/03/download_jquery_2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5L5qlAe2ZQ8PQJy2Vr9nt-SdVFSIy5NfPgbMAIQz8mgY5E5vxgA0iyKeNtltJaPGxQXk';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Spring Bootでjqueryのajaxを利用してみた
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://qiita-image-store.s3.amazonaws.com/0/65988/e2de999a-a821-ad2a-0247-6410009e6a5d.jpeg" data-lightbox="roadtrip" data-title="ダウンロード アップロード機能の実装 Aws上で構築するrestfulアプリ勉強会 Web開発ワークショップ 第9回 マニュアル Qiita">
+						<img class="card-img" src="https://qiita-image-store.s3.amazonaws.com/0/65988/e2de999a-a821-ad2a-0247-6410009e6a5d.jpeg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2-j9HkEdiigD4m37v_RqylHroA8-1ExkoU5sqFdqDx7oYF3n6rHUmhSZH_oYW8dpi2U';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				ダウンロード アップロード機能の実装 Aws上で構築するrestfulアプリ勉強会 Web開発ワークショップ 第9回 マニュアル Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://surferonwww.info/BlogEngine/image.axd?picture=2020%2F1%2F0120FileDownload.jpg" data-lightbox="roadtrip" data-title="All Posts Tagged Download">
+						<img class="card-img" src="http://surferonwww.info/BlogEngine/image.axd?picture=2020%2F1%2F0120FileDownload.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpCHhakt3TLg6AC5uZFtKHJ6iIlIQQ148cLI_K3rNpgSWq2k9M3GcUWVSh9fAqu8PnsU';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				All Posts Tagged Download
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.purin-it.com/wp-content/uploads/2020/03/download_jquery_1.jpg" data-lightbox="roadtrip" data-title="Spring Bootでjqueryのajaxを利用してみた">
+						<img class="card-img" src="https://www.purin-it.com/wp-content/uploads/2020/03/download_jquery_1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrvDbn9fNGVOPziknjQQ1IbUscveIv1J_IePgYiHBeko0uPGvtYzNPyS4gOpXhDbwRPBk';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Spring Bootでjqueryのajaxを利用してみた
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://blog-imgs-102-origin.fc2.com/s/y/m/symfoware/744_05.png" data-lightbox="roadtrip" data-title="ブラウザ Javascript で複数のファイルを一括ダウンロードさせる Symfoware">
+						<img class="card-img" src="https://blog-imgs-102-origin.fc2.com/s/y/m/symfoware/744_05.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjW7JDfku9FWWThbapxkFfCJk8ndYiVxsOwp_nsDergikjjWYdmsyE_3_X_LC5bWz6FM';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				ブラウザ Javascript で複数のファイルを一括ダウンロードさせる Symfoware
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cz-cdn.shoeisha.jp/static/images/article/6898/6898_01a.gif" data-lightbox="roadtrip" data-title="2つのajax Jquery Ajax Api と Asp Net Ajax 1 3 Codezine コードジン">
+						<img class="card-img" src="https://cz-cdn.shoeisha.jp/static/images/article/6898/6898_01a.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvShr0oxGfqbN2bA-GlCgMw5ugYMZvH5-XzJuwmBGod5lK9k9mOqKqrhRSaqeIrNG_L8A';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				2つのajax Jquery Ajax Api と Asp Net Ajax 1 3 Codezine コードジン
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://surferonwww.info/BlogEngine/image.axd?picture=2021%2F1%2F0117UploadToWebApi.jpg" data-lightbox="roadtrip" data-title="All Posts Tagged Download">
+						<img class="card-img" src="http://surferonwww.info/BlogEngine/image.axd?picture=2021%2F1%2F0117UploadToWebApi.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL17R5XuaMWe-5Fsnumxt5Bd5bvtDgt4jthsArt7BsLB5PmMwyL8hRXSNFuttl-ItYf6g';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				All Posts Tagged Download
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://cdn-ak.f.st-hatena.com/images/fotolife/s/sh_yoshida/20150117/20150117075225.png" data-lightbox="roadtrip" data-title="Asp Net Mvcはじめました Ajaxメソッドでローディング画像を表示して検索結果を取得しexcelでダウンロードする 1 21 Jigowatts">
+						<img class="card-img" src="http://cdn-ak.f.st-hatena.com/images/fotolife/s/sh_yoshida/20150117/20150117075225.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsqYa_bXoiq3GKTF43FzmgvIoGmFPdF5PRdUnGb0XDGgsVlC9LVhThG1tkwCPye4X8xtk';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Asp Net Mvcはじめました Ajaxメソッドでローディング画像を表示して検索結果を取得しexcelでダウンロードする 1 21 Jigowatts
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://grokonez.com/wp-content/uploads/2018/08/jquery-ajax-springboot-amazon-s3-download-files.png" data-lightbox="roadtrip" data-title="Jquery Ajax Springboot Amazon S3 Upload Download Files Images Grokonez">
+						<img class="card-img" src="https://grokonez.com/wp-content/uploads/2018/08/jquery-ajax-springboot-amazon-s3-download-files.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9OOdINplqV80x0Iw1SHd8vIHq58PyH-KWHMMSQl1lg1GDHh_1K54jzkXAkqcCwhzOrWs';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Jquery Ajax Springboot Amazon S3 Upload Download Files Images Grokonez
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://teratail-v2.storage.googleapis.com/uploads/contributed_images/83eb5fb6451bbde85f91857aaf45aba9.png" data-lightbox="roadtrip" data-title="Javascript Jsでのファイルダウンロード時 ブラウザのダウンロードバーにダウンロードの進行状況を表示したい Teratail">
+						<img class="card-img" src="https://teratail-v2.storage.googleapis.com/uploads/contributed_images/83eb5fb6451bbde85f91857aaf45aba9.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_BYE8eyZgVA3dpDxTbVoj7LALTikLt6sZaLCLl5otZvonaWdH3pEjwjC6wsXEOFYw9ew';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Javascript Jsでのファイルダウンロード時 ブラウザのダウンロードバーにダウンロードの進行状況を表示したい Teratail
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://docs.microsoft.com/ja-jp/aspnet/web-forms/overview/ajax-control-toolkit/getting-started/get-started-with-the-ajax-control-toolkit-cs/_static/image2.jpg" data-lightbox="roadtrip" data-title="Ajax コントロール ツールキット C の使用を開始する Microsoft Docs">
+						<img class="card-img" src="https://docs.microsoft.com/ja-jp/aspnet/web-forms/overview/ajax-control-toolkit/getting-started/get-started-with-the-ajax-control-toolkit-cs/_static/image2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnHip5P4iYCAD1SeL2B7jakbZ-DuPthWRf1lrvxgNKeastSMf8lf-SH_o-XruKmUp1-LE';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Ajax コントロール ツールキット C の使用を開始する Microsoft Docs
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://winofsql.jp/image/a/file_upload_control_v2_v3.png" data-lightbox="roadtrip" data-title="Php Ajax でアップロード 画像限定 ファイルアップロード Ver 3 Logical Error">
+						<img class="card-img" src="https://winofsql.jp/image/a/file_upload_control_v2_v3.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe70wc-eCshIxHXymuajc4LUKXfB1VzUTxFwz7R_rkUjkaUYHuPrq5AXPpUh1lR5sM8-8';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Php Ajax でアップロード 画像限定 ファイルアップロード Ver 3 Logical Error
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://surferonwww.info/BlogEngine/image.axd?picture=2019%2F8%2F0802FileUpload.jpg" data-lightbox="roadtrip" data-title="Upload Download Page 2">
+						<img class="card-img" src="http://surferonwww.info/BlogEngine/image.axd?picture=2019%2F8%2F0802FileUpload.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBQysdg1atbTBasvMejR_G2nppuAojO_FWaB5zc19GCZnYbrqdNsP9PBET6f5xg0DQLTI';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Upload Download Page 2
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://freeks-japan.blog/wp-content/uploads/2020/06/18-4.png" data-lightbox="roadtrip" data-title="このタスクを完了するボタンをajaxにしてみよう Freeks Blog">
+						<img class="card-img" src="https://freeks-japan.blog/wp-content/uploads/2020/06/18-4.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIh9gWhg-1tJj5LRUA6_16KahqxcYxQLu8gw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				このタスクを完了するボタンをajaxにしてみよう Freeks Blog
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.purin-it.com/wp-content/uploads/2019/11/mysql_data.png" data-lightbox="roadtrip" data-title="Ajaxでダウンロードしたexcelファイルが壊れています">
+						<img class="card-img" src="https://www.purin-it.com/wp-content/uploads/2019/11/mysql_data.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmoiDgERjjQTrrZiZs-sLTZ82X_gtFTw8TIQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Ajaxでダウンロードしたexcelファイルが壊れています
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://netbeans.apache.org/kb/docs/php/images/no-css.png" data-lightbox="roadtrip" data-title="Php Webアプリケーションでのajax入門">
+						<img class="card-img" src="https://netbeans.apache.org/kb/docs/php/images/no-css.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX1IdWkgl3ku18oNAchxYXeVIIEzhM2hAvew';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Php Webアプリケーションでのajax入門
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://traveler0401.com/wp-content/uploads/2018/06/%E3%80%90JavaScript%E3%80%91%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E8%A4%87%E6%95%B0%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BC%81.jpg" data-lightbox="roadtrip" data-title="Javascript ファイルを複数ダウンロードする方法 泉浩兵ブログ">
+						<img class="card-img" src="https://traveler0401.com/wp-content/uploads/2018/06/%E3%80%90JavaScript%E3%80%91%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E8%A4%87%E6%95%B0%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BC%81.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwPffUJwqG-4sswtVCeRiyXp7Xngd1_FEa6w';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Javascript ファイルを複数ダウンロードする方法 泉浩兵ブログ
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://www.nj-soft.com/njweb/html/402035/nj_upload1.gif" data-lightbox="roadtrip" data-title="寧静ソフトウェア制作">
+						<img class="card-img" src="http://www.nj-soft.com/njweb/html/402035/nj_upload1.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSseyRdsCNAxJ2GJb1X_I0GvN-hNWVgGhdHrQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				寧静ソフトウェア制作
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://grokonez.com/wp-content/uploads/2018/08/jquery-ajax-springboot-amazon-s3-upload-files-on-s3.png" data-lightbox="roadtrip" data-title="Jquery Ajax Springboot Amazon S3 Upload Download Files Images Grokonez">
+						<img class="card-img" src="https://grokonez.com/wp-content/uploads/2018/08/jquery-ajax-springboot-amazon-s3-upload-files-on-s3.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPR12V_tS9isCMi78RGMtqX5CTb8YSEmOjuA';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Jquery Ajax Springboot Amazon S3 Upload Download Files Images Grokonez
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://thinkit.co.jp/images/article/0702/14/2/2_zoom.gif" data-lightbox="roadtrip" data-title="Thinkit 第2回 Asp Net Ajaxのインストール 3 4">
+						<img class="card-img" src="https://thinkit.co.jp/images/article/0702/14/2/2_zoom.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP350as9CpChzNi2AX-0pF5VCq42XV6xvQUQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Thinkit 第2回 Asp Net Ajaxのインストール 3 4
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://programmerstart.com/images/642/cedcd408465de0be4820fe797887136a.png" data-lightbox="roadtrip" data-title="Multerミドルウェアのアップロードは ダウンロードの きなピットです Res Download とajaxの です プログラマは 始めます">
+						<img class="card-img" src="https://programmerstart.com/images/642/cedcd408465de0be4820fe797887136a.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV63GRhOuv8EUDZK0hh8TU3tofPFW59Lvb3Q';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Multerミドルウェアのアップロードは ダウンロードの きなピットです Res Download とajaxの です プログラマは 始めます
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://www.flatflag.nir87.com/wp-content/uploads/2016/08/jquery_download.png" data-lightbox="roadtrip" data-title="Jqueryファイルの読み込み方法 Cdnや直接ダウンロード">
+						<img class="card-img" src="http://www.flatflag.nir87.com/wp-content/uploads/2016/08/jquery_download.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQ9MCEwyapY5dh2GAOjhK6oyYf8CbQOzqQQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Jqueryファイルの読み込み方法 Cdnや直接ダウンロード
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="3TPHAr-uQe_lcM" data-lightbox="roadtrip" data-title="Http Www Kddi Com Pub Hosting Gate Pdf Ajax Pdf">
+						<img class="card-img" src="3TPHAr-uQe_lcM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQFxGPv8IFI6kEaGO_oIZApVeljdJAHYHV0A';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Http Www Kddi Com Pub Hosting Gate Pdf Ajax Pdf
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://kinsta.com/jp/wp-content/uploads/sites/6/2019/06/wordpress-download-manager.png" data-lightbox="roadtrip" data-title="最も便利なwordpressダウンロードマネージャプラグインの15選">
+						<img class="card-img" src="https://kinsta.com/jp/wp-content/uploads/sites/6/2019/06/wordpress-download-manager.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShgqSRLK6kAY_6l80fB78PaMSJFIUaOjMrBw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				最も便利なwordpressダウンロードマネージャプラグインの15選
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://blog.capilano-fw.com/wp-content/uploads/2019/04/picture-frame-763299_640_ver2_2.png" data-lightbox="roadtrip" data-title="大きな画像をjavascriptでリサイズしてからajax送信する方法 Console Dot Log">
+						<img class="card-img" src="https://blog.capilano-fw.com/wp-content/uploads/2019/04/picture-frame-763299_640_ver2_2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsySzHkAUXcKLCt1z5hugGcTtKJ3Kd_NcHWw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				大きな画像をjavascriptでリサイズしてからajax送信する方法 Console Dot Log
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://fastcoding.jp/blog/wp-content/uploads/2018/01/1801_jquery01.jpg" data-lightbox="roadtrip" data-title="Jqueryを使うには何を準備したらいいの Jqueryことはじめ Fastcoding Blog">
+						<img class="card-img" src="https://fastcoding.jp/blog/wp-content/uploads/2018/01/1801_jquery01.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsOYr9pBUMg2BJBROrcMjaHKJ9v0QEFhie7w';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Jqueryを使うには何を準備したらいいの Jqueryことはじめ Fastcoding Blog
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+		
+	</div>
+
+		 
+		
+		
+				</div>
+				<div class="col-sm-12 widget">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+<script async="async" data-cfasync="false" src="//jc32arlvqpv8.com/336f640533fc240a04377331fb9172e6/invoke.js"></script>
+<div id="container-336f640533fc240a04377331fb9172e6"></div>
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center py-4">
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+					
+				</div>
+			</div>
+		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+		
+		<!-- Footer CSS JS -->
+		
+		
+		
+			<script type='text/javascript' src='//jc32arlvqpv8.com/7f/87/6c/7f876c33ff884d68c1dd6a22eb6677c8.js'></script>
+</body>
+</html>

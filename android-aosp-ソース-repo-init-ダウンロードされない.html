@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet" type="text/css">
+
+		<style type="text/css">
+			html,body{font-family:"Open Sans",Arial,sans-serif;font-size:14px;font-weight:400;background:#f3f3f3 url(https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-21-638.jpg?cb=1556688617
+) no-repeat center center fixed;background-size:cover;height:100%}#title{font-family:"Mr Dafoe",Times,serif;font-size:34px;background:rgba(255,255,255,.8);margin-bottom:34px}.header{padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid #eee}a{color:#26ADE4;text-decoration:none}#title a{color:#333;margin-left:21px}#title a:hover{text-decoration:none;color:#26ADE4}.sidebar ul{margin:0;padding:0}.sidebar ul li{list-style:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0 13px 0;padding:13px}.navi a{margin:5px 2px;font-size:95%}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.dwn-cover{max-height: 460px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}			
+		</style>
+
+		<title>Android Aosp ソース Repo Init ダウンロードされない</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "Android Aosp ソース Repo Init ダウンロードされない",
+  "datePublished": "2021-04-25",
+  "image": [http://www.ytdk.jp/android/env/get_aosp/img/get_aosp-01-03-03-02.png,https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-14-638.jpg?cb=1556688617,https://source.android.com/setup/images/VIM3_V12_Perspective.png?hl=ja],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tukang Sarapan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=android aosp ソース repo init ダウンロードされない",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+		<!-- Head tag Code -->	
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B9BHS4P5EY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B9BHS4P5EY');
+</script>
+
+<script type='text/javascript' src='//jc32arlvqpv8.com/c4/9c/f2/c49cf2db4eefa85d0e9d9e1c400627b5.js'></script>
+</head>
+	<body>
+		<header class="bg-white fixed-top">			
+			<nav class="navbar navbar-light bg-white mb-0">
+				<div class="container justify-content-center justify-content-sm-between">	
+				  <a href="/" title="Tukang Sarapan" class="navbar-brand mb-1">Tukang Sarapan</a>
+				  				</div>			  
+			</nav>				
+		</header>
+		<main class="main container bg-white">
+			<div class="row header">
+				<div class="col-sm-12 text-center p-2">
+						<h1>Android Aosp ソース Repo Init ダウンロードされない</h1>
+
+	
+	<div class="navi text-center">
+										<a class="badge badge-dark" href="/youtube-%E5%8B%95%E7%94%BB-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-chrome.html">youtube 動画 ダウンロード chrome</a>
+											<a class="badge badge-info" href="/onenote-%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97-%E7%89%88-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">onenote デスクトップ 版 ダウンロード</a>
+											<a class="badge badge-danger" href="/android-pie-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%82%92%E4%BF%9D%E7%95%99.html">android pie ダウンロードを保留</a>
+											<a class="badge badge-warning" href="/tencent-gaming-buddy-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">tencent gaming buddy ダウンロード</a>
+											<a class="badge badge-dark" href="/orbit-youtube-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84.html">orbit youtube ダウンロード できない</a>
+											<a class="badge badge-success" href="/android-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E5%85%83-%E4%B8%8D%E6%98%8E-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB.html">android ダウンロード元 不明 ファイル</a>
+											<a class="badge badge-primary" href="/andoroid-wifi-%E8%87%AA%E5%8B%95%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E7%84%A1%E5%8A%B9.html">andoroid wifi 自動ダウンロード 無効</a>
+											<a class="badge badge-light" href="/android-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%97%E3%81%9F%E7%94%BB%E5%83%8F%E3%82%92microsd%E3%82%AB%E3%83%BC%E3%83%89%E3%81%B8.html">android ダウンロードした画像をmicrosdカードへ</a>
+											<a class="badge badge-warning" href="/app-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84.html">app ダウンロードされない</a>
+											<a class="badge badge-danger" href="/app-store-connect-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E6%95%B0.html">app store connect ダウンロード数</a>
+											<a class="badge badge-dark" href="/libreoffice-%E6%97%A5%E6%9C%AC-%E8%AA%9E-%E5%85%AC%E5%BC%8F-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E3%83%9A%E3%83%BC%E3%82%B8.html">libreoffice 日本 語 公式 ダウンロード ページ</a>
+											<a class="badge badge-primary" href="/amazon%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E9%85%8D%E4%BF%A1%E7%B5%82%E4%BA%86-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">amazonプライム 配信終了 ダウンロード</a>
+											<a class="badge badge-danger" href="/microsoft-easy-fix-windows7-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">microsoft easy fix windows7 ダウンロード</a>
+											<a class="badge badge-secondary" href="/android-%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E6%99%82%E9%96%93.html">android ソースコード ダウンロード 時間</a>
+											<a class="badge badge-danger" href="/acrobat-pro-dc-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-%E3%82%AB%E3%83%BC%E3%83%89.html">acrobat pro dc ダウンロード カード</a>
+						</div>
+<center>
+	<!-- MIDDLE BANNER ADS -->
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'c6c38f505f89474eabb6c7b8c082359d',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://jc32arlvqpv8.com/c6c38f505f89474eabb6c7b8c082359d/invoke.js"></scr' + 'ipt>');
+</script>
+		
+	</center>
+					
+				</div>
+			</div>
+			<div class="row content mb-4">
+				<div class="col-md-12">					
+					
+	
+	<div class="card-columns">
+						
+	  <div class='card'>
+	  	<a href="http://www.ytdk.jp/android/env/get_aosp/img/get_aosp-01-03-02.png" data-lightbox="roadtrip" data-title="Aospのソースコードを取得する">
+						<img class="card-img" src="http://www.ytdk.jp/android/env/get_aosp/img/get_aosp-01-03-02.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREzRenoe6YTRUBNLkroD52d56Pdxx6rKeyL_DpZK_XfUoRRoCb9fNu-E0HpZPTnQQYvRc';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aospのソースコードを取得する
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://www.ytdk.jp/android/env/get_aosp/img/get_aosp-01-03-03-02.png" data-lightbox="roadtrip" data-title="Aospのソースコードを取得する">
+						<img class="card-img" src="http://www.ytdk.jp/android/env/get_aosp/img/get_aosp-01-03-03-02.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eLvPoI-D4f9VC_I-A7tKd9Q0bGTthJu7m1Xa31vHHE_tTaS446keaaJw6XbgOzr18fM';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aospのソースコードを取得する
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://www.ytdk.jp/android/env/get_aosp/img/get_aosp-01-01-01-02-01.png" data-lightbox="roadtrip" data-title="Aospのソースコードを取得する">
+						<img class="card-img" src="http://www.ytdk.jp/android/env/get_aosp/img/get_aosp-01-01-01-02-01.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkCcoBBgq4Ol2JIzAwTQXmSXzZKR5EbqpMB273qIHia3rKLQHC1YKTh2uHODnyNbGRzY4';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aospのソースコードを取得する
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://i.stack.imgur.com/Bz9Fo.png" data-lightbox="roadtrip" data-title="How Can I See Git Log In Aosp Android Open Source Project After Repo Sync Done Stack Overflow">
+						<img class="card-img" src="https://i.stack.imgur.com/Bz9Fo.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvCQKUjdtwj_9IfssXMfzphScMdLb5m0O8kmkQC_GmY7-no5KuBwTKZ7uFZI__WIpgCN0';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				How Can I See Git Log In Aosp Android Open Source Project After Repo Sync Done Stack Overflow
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://i2.wp.com/blog.sanachan.com/wp-content/uploads/2019/06/213B2D3A53F5793E22.jpg?fit=630%2C245&amp;ssl=1" data-lightbox="roadtrip" data-title="Androidのソースコードをダウンロード Sanachan S備忘録">
+						<img class="card-img" src="https://i2.wp.com/blog.sanachan.com/wp-content/uploads/2019/06/213B2D3A53F5793E22.jpg?fit=630%2C245&amp;ssl=1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwojZbqOWB9_eRiMTiuljwf5wRZCyYCVQBbfmp12q_2xUn3rRNk53z2eGzvrsMnMKLRqM';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidのソースコードをダウンロード Sanachan S備忘録
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://blog.sanachan.com/wp-content/uploads/2019/06/garumax-Android-OS-17116-2.jpg" data-lightbox="roadtrip" data-title="Androidのソースコードをダウンロード Sanachan S備忘録">
+						<img class="card-img" src="https://blog.sanachan.com/wp-content/uploads/2019/06/garumax-Android-OS-17116-2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY1ANW5FX-SHL7q2dU2cs4E9qwlza2HM0fVJqPbumExy7to9fPUZ1G8nFNbGAP6K8_tE';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidのソースコードをダウンロード Sanachan S備忘録
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+				<div class='card'>	
+			<div class="d-block p-4">
+	</div>		  	
+		  	<h3 class="h6 p-2"><b></b></h3>
+					</div>
+		
+						
+	  <div class='card'>
+	  	<a href="https://programmerstart.com/images/667/322aa97a75204341a8601d3f6df7ceeb.png" data-lightbox="roadtrip" data-title="Macbookはandroidaospソースコードをダウンロードしてコンパイルします プログラマは 始めます">
+						<img class="card-img" src="https://programmerstart.com/images/667/322aa97a75204341a8601d3f6df7ceeb.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyMgnYyyMe_q2aq5vLQerETLa4JW5KMt7BcUi2215VYMiumIHZOi4ATkNBT8rRZezb7js';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Macbookはandroidaospソースコードをダウンロードしてコンパイルします プログラマは 始めます
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F80557%2F8480cb0e-7271-3d07-6617-5f40a93ee072.png?ixlib=rb-1.2.2&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=63440922687f8b9dd846bfbaa08a7419" data-lightbox="roadtrip" data-title="Android Studio で Android Framework Aosp のソースコードを読む Qiita">
+						<img class="card-img" src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F80557%2F8480cb0e-7271-3d07-6617-5f40a93ee072.png?ixlib=rb-1.2.2&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=63440922687f8b9dd846bfbaa08a7419" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjhmhFvw3P3D_ZJvLcznFv_Lk_payKt-r6MhGp4f0-D2XXEVMLAq0mAOclpzsPEZ_mTWw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android Studio で Android Framework Aosp のソースコードを読む Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F80557%2Fa1811a72-6dee-ec91-4589-f444444c0f3c.png?ixlib=rb-1.2.2&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=3dc9fdd1cfe14bce37e8cfd05895385b" data-lightbox="roadtrip" data-title="Android Studio で Android Framework Aosp のソースコードを読む Qiita">
+						<img class="card-img" src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F80557%2Fa1811a72-6dee-ec91-4589-f444444c0f3c.png?ixlib=rb-1.2.2&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=3dc9fdd1cfe14bce37e8cfd05895385b" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHmRXe7nVETDWJV-BVTVRazwyFY1YDqGrj9g81l5rqtY0Ty4q_7B4tMsUZCDN8FCqcYw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android Studio で Android Framework Aosp のソースコードを読む Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-8-638.jpg?cb=1556688617" data-lightbox="roadtrip" data-title="Aosp読んでみた Androidの仕組み">
+						<img class="card-img" src="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-8-638.jpg?cb=1556688617" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIwIWxRUWBYoQhHmhEBSYoDTD4lONqnf4w_VlaLAKUTqj0umDASqi8o5kUpJUZln4rnhY';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp読んでみた Androidの仕組み
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://source.android.com/setup/images/mobile-view.png?hl=ja" data-lightbox="roadtrip" data-title="サイトの更新 Android オープンソース プロジェクト Android Open Source Project">
+						<img class="card-img" src="https://source.android.com/setup/images/mobile-view.png?hl=ja" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKF-sDJ50_M6yS3IPaMMYF4oiE0Dvdla0ERknxLRplhgZIcng5R51zLajZGdeKqT4x86A';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				サイトの更新 Android オープンソース プロジェクト Android Open Source Project
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/t/tsuyo-shin/20210326/20210326175530.png" data-lightbox="roadtrip" data-title="Aosp 環境にて Google Apps をビルドする Android 11 Tsuyoshin S Tech Blog">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/t/tsuyo-shin/20210326/20210326175530.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq38Hs3s4OcqHCE99HZbAttW5JYo0PB6Xz7UytwhigBG4_eypPintN5jDTepEyv3Bx5cw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp 環境にて Google Apps をビルドする Android 11 Tsuyoshin S Tech Blog
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://2.bp.blogspot.com/-N9Rh4_uw6vU/VjyvGGrI-lI/AAAAAAAACTw/IUel3KeY3qw/s1600/Screenshot%2Bfrom%2B2015-11-06%2B22%253A44%253A03.png" data-lightbox="roadtrip" data-title="Solid State Life Ubuntuで Android本体 Android Open Source Project のソース コードをビルドしてみる">
+						<img class="card-img" src="http://2.bp.blogspot.com/-N9Rh4_uw6vU/VjyvGGrI-lI/AAAAAAAACTw/IUel3KeY3qw/s1600/Screenshot%2Bfrom%2B2015-11-06%2B22%253A44%253A03.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQymTdI-Uh4mc6G5ynJ9gf3RJhqZz6RS9m0sPmOnhlHuBV8_lBaxNzoyiLK1eBdNl-sCJ0';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Solid State Life Ubuntuで Android本体 Android Open Source Project のソース コードをビルドしてみる
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://i.stack.imgur.com/THxWp.png" data-lightbox="roadtrip" data-title="How Can I See Git Log In Aosp Android Open Source Project After Repo Sync Done Stack Overflow">
+						<img class="card-img" src="https://i.stack.imgur.com/THxWp.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDm5AHGaukzTWnQMGs8YIdd7ToEt5PHXxr2pEwnXk-JlqXXzJPCPBKSLcKZ3_1FznI2s';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				How Can I See Git Log In Aosp Android Open Source Project After Repo Sync Done Stack Overflow
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://codechacha.com/static/7aef36dca4caf668d44cbcb4e6a41914/e85cb/emulator.png" data-lightbox="roadtrip" data-title="Ubuntuでandroid10ソースのダウンロードとビルド">
+						<img class="card-img" src="https://codechacha.com/static/7aef36dca4caf668d44cbcb4e6a41914/e85cb/emulator.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ZRzj_wmZ2WQYtXUgEbEKPKpCUabk4TSp-3yy9hThRiYmgjzK42EOYet6WdqddQavwfg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Ubuntuでandroid10ソースのダウンロードとビルド
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn.slidesharecdn.com/ss_thumbnails/aosp-190501052821-thumbnail-4.jpg?cb=1556688617" data-lightbox="roadtrip" data-title="Aosp読んでみた Androidの仕組み">
+						<img class="card-img" src="https://cdn.slidesharecdn.com/ss_thumbnails/aosp-190501052821-thumbnail-4.jpg?cb=1556688617" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrbtSw-xPMSgZYQtrBEitt8MVmoQLjOyDn00oFVnKKAxuXg4qrcuhmuvDYhxvk3ijZIl4';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp読んでみた Androidの仕組み
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://source.android.com/setup/images/hikey960.png?hl=ja" data-lightbox="roadtrip" data-title="評価ボードの使用 Android オープンソース プロジェクト Android Open Source Project">
+						<img class="card-img" src="https://source.android.com/setup/images/hikey960.png?hl=ja" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiV4iVyA-yge3uM6f4e3VxcpMuVBX19oQFwBxUgkLGeKDAEh2qO1CjiLLpUDOvVc-1KWw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				評価ボードの使用 Android オープンソース プロジェクト Android Open Source Project
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://source.android.com/setup/images/db845c-front-sd.png?hl=ja" data-lightbox="roadtrip" data-title="評価ボードの使用 Android オープンソース プロジェクト Android Open Source Project">
+						<img class="card-img" src="https://source.android.com/setup/images/db845c-front-sd.png?hl=ja" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvpX7O1qaMqmtW8535m4Exgpj1IpyzNhBKPmHzYHB9-5GLNfKsbaXUV_w-XFs1fUCCuo';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				評価ボードの使用 Android オープンソース プロジェクト Android Open Source Project
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-14-638.jpg?cb=1556688617" data-lightbox="roadtrip" data-title="Aosp読んでみた Androidの仕組み">
+						<img class="card-img" src="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-14-638.jpg?cb=1556688617" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmshfufRFGCB7pWb1SZ-RJdFgV3-NY69_MJmwT327vcVJgNQzTuuerwjBF0k0pBWcHs1k';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp読んでみた Androidの仕組み
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.gstatic.com/devrel-devsite/prod/v361636fe9adc09a35d4071cab3bc6a613653d01c6fde907d9b5c606946d81263/androidsource/images/lockup.svg" data-lightbox="roadtrip" data-title="コード名 タグ ビルド番号 Android オープンソース プロジェクト Android Open Source Project">
+						<img class="card-img" src="https://www.gstatic.com/devrel-devsite/prod/v361636fe9adc09a35d4071cab3bc6a613653d01c6fde907d9b5c606946d81263/androidsource/images/lockup.svg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXH09Blj87f0e6r6Um9vlrN9s13nTHyiVm7F6IlW4O4BUUseCb8JQu-OQw29flFdvOkM';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				コード名 タグ ビルド番号 Android オープンソース プロジェクト Android Open Source Project
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://1.bp.blogspot.com/-lksmIrEhbcE/VjyvtbYWeUI/AAAAAAAACT4/yA3Ny73vHy0/s1600/Screenshot%2Bfrom%2B2015-11-06%2B22%253A47%253A38.png" data-lightbox="roadtrip" data-title="Solid State Life Ubuntuで Android本体 Android Open Source Project のソース コードをビルドしてみる">
+						<img class="card-img" src="http://1.bp.blogspot.com/-lksmIrEhbcE/VjyvtbYWeUI/AAAAAAAACT4/yA3Ny73vHy0/s1600/Screenshot%2Bfrom%2B2015-11-06%2B22%253A47%253A38.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUftisyzuttFUjutC4Y0bzOrkS48x6FUV0jA';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Solid State Life Ubuntuで Android本体 Android Open Source Project のソース コードをビルドしてみる
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://programmerstart.com/images/884/acef927c3e6a4b3f7d738f859421d41c.png" data-lightbox="roadtrip" data-title="Macbookはandroidaospソースコードをダウンロードしてコンパイルします プログラマは 始めます">
+						<img class="card-img" src="https://programmerstart.com/images/884/acef927c3e6a4b3f7d738f859421d41c.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcBeJmfuawheC5aVcm2MrDsLqFBb63MIg9sg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Macbookはandroidaospソースコードをダウンロードしてコンパイルします プログラマは 始めます
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-27-638.jpg?cb=1556688617" data-lightbox="roadtrip" data-title="Aosp読んでみた Androidの仕組み">
+						<img class="card-img" src="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-27-638.jpg?cb=1556688617" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQe8jJRvzIOf1lqmsAm5hC_hJ8R_c7YWwOQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp読んでみた Androidの仕組み
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://dev.maud.io/img/avatar.png" data-lightbox="roadtrip" data-title="Android ビルドで学ぶ Git Repo 入門 Dev Mordiford">
+						<img class="card-img" src="https://dev.maud.io/img/avatar.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb5tW0K1VfuuQcT7iEMtW6RvQ_VoiFjof6Mg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android ビルドで学ぶ Git Repo 入門 Dev Mordiford
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="/search?q=android+%E3%83%AD%E3%82%B4&amp;tbm=isch" data-lightbox="roadtrip" data-title="Https Encrypted Tbn0 Gstatic Com Images Q Tbn And9gcrgxbo4bqjcfxymqqy5htb9nucpoqoxnxkuehwi13w Usqp Cau">
+						<img class="card-img" src="/search?q=android+%E3%83%AD%E3%82%B4&amp;tbm=isch" onerror="this.onerror=null;this.src='/search?q=android+%E3%83%AD%E3%82%B4&amp;tbm=isch';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Https Encrypted Tbn0 Gstatic Com Images Q Tbn And9gcrgxbo4bqjcfxymqqy5htb9nucpoqoxnxkuehwi13w Usqp Cau
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://camo.qiitausercontent.com/f80686a1f1a36099c12e0c9ff37568e0b093b0f2/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3233373730302f34653962656634622d333333342d333637392d336433372d6564306533653230303338352e6a706567" data-lightbox="roadtrip" data-title="Aosp ビルドしたandroidosを実機に入れる Qiita">
+						<img class="card-img" src="https://camo.qiitausercontent.com/f80686a1f1a36099c12e0c9ff37568e0b093b0f2/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3233373730302f34653962656634622d333333342d333637392d336433372d6564306533653230303338352e6a706567" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3MBvfosGoR7E9VAabKKDn-xrGt2fOfW5kQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp ビルドしたandroidosを実機に入れる Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-19-638.jpg?cb=1556688617" data-lightbox="roadtrip" data-title="Aosp読んでみた Androidの仕組み">
+						<img class="card-img" src="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-19-638.jpg?cb=1556688617" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMSi93nFuX0vIBTDO2Y20o1YgSM1BqOvJ6Q';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp読んでみた Androidの仕組み
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-21-638.jpg?cb=1556688617" data-lightbox="roadtrip" data-title="Aosp読んでみた Androidの仕組み">
+						<img class="card-img" src="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-21-638.jpg?cb=1556688617" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiANJ1mmONCE7efbzRK6H_JPNXrevbj3J_3g';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp読んでみた Androidの仕組み
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://camo.qiitausercontent.com/f448de227070de5d5599cbba926b45055f7d3355/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3233373730302f65613238313263352d626231312d313361342d373637632d6435613261656464626362382e6a706567" data-lightbox="roadtrip" data-title="Aosp ビルドしたandroidosを実機に入れる Qiita">
+						<img class="card-img" src="https://camo.qiitausercontent.com/f448de227070de5d5599cbba926b45055f7d3355/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3233373730302f65613238313263352d626231312d313361342d373637632d6435613261656464626362382e6a706567" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_fgsRf7asBlO6UW8HD-szQwYTDCFgep-9iQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp ビルドしたandroidosを実機に入れる Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://source.android.com/setup/images/VIM3_V12_Perspective.png?hl=ja" data-lightbox="roadtrip" data-title="評価ボードの使用 Android オープンソース プロジェクト Android Open Source Project">
+						<img class="card-img" src="https://source.android.com/setup/images/VIM3_V12_Perspective.png?hl=ja" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTSdKZ0xQ4q10kGHc3g6lamlUdWfEBw2FWKQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				評価ボードの使用 Android オープンソース プロジェクト Android Open Source Project
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-15-638.jpg?cb=1556688617" data-lightbox="roadtrip" data-title="Aosp読んでみた Androidの仕組み">
+						<img class="card-img" src="https://image.slidesharecdn.com/aosp-190501052821/95/aosp-android-15-638.jpg?cb=1556688617" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM10owv3yQV0CpR0ntOMNe0iUzB3KSqRBafQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp読んでみた Androidの仕組み
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://camo.qiitausercontent.com/233ec56c2d1b7e8a8fa1c35ce0c9eaf7f009bd84/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3233373730302f61326530633462312d663965302d336232662d376165362d3238383133366463623035322e706e67" data-lightbox="roadtrip" data-title="Aosp ビルドしたandroidosを実機に入れる Qiita">
+						<img class="card-img" src="https://camo.qiitausercontent.com/233ec56c2d1b7e8a8fa1c35ce0c9eaf7f009bd84/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3233373730302f61326530633462312d663965302d336232662d376165362d3238383133366463623035322e706e67" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XnlWCgB2JTGMQv7eQZ_-94iPXGw644MBIw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Aosp ビルドしたandroidosを実機に入れる Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F80557%2Fd8e43677-49f2-1af7-8256-78691762b2a1.png?ixlib=rb-1.2.2&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=2f554f6397cfb0e8e5a9923e50279701" data-lightbox="roadtrip" data-title="Android Studio で Android Framework Aosp のソースコードを読む Qiita">
+						<img class="card-img" src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F80557%2Fd8e43677-49f2-1af7-8256-78691762b2a1.png?ixlib=rb-1.2.2&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=2f554f6397cfb0e8e5a9923e50279701" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHAXt5EJQV9bcNusSqGT561xHb1e6m4ArjA';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android Studio で Android Framework Aosp のソースコードを読む Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+		
+	</div>
+
+		 
+		
+		
+				</div>
+				<div class="col-sm-12 widget">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+<script async="async" data-cfasync="false" src="//jc32arlvqpv8.com/336f640533fc240a04377331fb9172e6/invoke.js"></script>
+<div id="container-336f640533fc240a04377331fb9172e6"></div>
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center py-4">
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+					
+				</div>
+			</div>
+		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+		
+		<!-- Footer CSS JS -->
+		
+		
+		
+			<script type='text/javascript' src='//jc32arlvqpv8.com/7f/87/6c/7f876c33ff884d68c1dd6a22eb6677c8.js'></script>
+</body>
+</html>
